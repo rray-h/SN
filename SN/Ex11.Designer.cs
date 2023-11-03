@@ -245,7 +245,6 @@ namespace SN
             this.Controls.Add(this.button1);
             this.Name = "Ex11";
             this.Text = "Ex11";
-            this.Load += new System.EventHandler(this.Ex11_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

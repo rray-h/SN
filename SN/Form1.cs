@@ -90,5 +90,23 @@ namespace SN
             Ex11 ex11 = new Ex11();
             ex11.Show();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Ex12 ex12 = new Ex12();
+            ex12.Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Ex13 ex13 = new Ex13();
+            ex13.Show();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Ex14 ex14 = new Ex14();
+            ex14.Show();
+        }
     }
 }
