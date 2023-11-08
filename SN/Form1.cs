@@ -15,9 +15,14 @@ namespace SN
         public Form1()
         {
             InitializeComponent();
+            this.Text = "Solution";
         }
 
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            panel1.AutoScroll = true;
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -53,12 +58,6 @@ namespace SN
         {
             Ex6 ex6 = new Ex6();
             ex6.Show();
-        }
-
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            this.Text = "Решения";
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -107,6 +106,30 @@ namespace SN
         {
             Ex14 ex14 = new Ex14();
             ex14.Show();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Ex15 ex15 = new Ex15();
+            ex15.Show();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Ex16 ex16 = new Ex16();
+            ex16.Show();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            Ex17 ex17 = new Ex17();
+            ex17.Show();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            Ex18 ex18 = new Ex18();
+            ex18.Show();
         }
     }
 }

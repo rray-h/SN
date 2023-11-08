@@ -82,6 +82,30 @@
     <Compile Include="Ex14.Designer.cs">
       <DependentUpon>Ex14.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ex15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex15.Designer.cs">
+      <DependentUpon>Ex15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex16.Designer.cs">
+      <DependentUpon>Ex16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex17.Designer.cs">
+      <DependentUpon>Ex17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex18.Designer.cs">
+      <DependentUpon>Ex18.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ex2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +179,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ex14.resx">
       <DependentUpon>Ex14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex15.resx">
+      <DependentUpon>Ex15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex16.resx">
+      <DependentUpon>Ex16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex17.resx">
+      <DependentUpon>Ex17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex18.resx">
+      <DependentUpon>Ex18.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ex2.resx">
       <DependentUpon>Ex2.cs</DependentUpon>
